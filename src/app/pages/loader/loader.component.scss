@@ -60,9 +60,10 @@
 }
 
 .upper {
-  transform: translateY(50%);
+  transform: translateY(100%);
   animation: upper-logo 2s ease-in-out 1.2s forwards;
 }
+
 .lower {
   margin-top: -1px;
   transform: translateY(-100%);
@@ -73,22 +74,22 @@
   from {
     transform: translateY(50%);
   }
-  30%, 70% {
+  50% {
     transform: translateY(0%);
   }
-  to{
+  to {
     transform: translateY(50%);
   }
 }
 
 @keyframes lower-logo {
   from {
-    transform: translateY(-100%);
-  }
-  30%, 70% {
     transform: translateY(-50%);
   }
-  to{
-    transform: translateY(-100%);
+  50% {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-50%);
   }
 }
