@@ -1,60 +1,46 @@
-import { IFeature } from "../models";
+import { IFeature } from '../models';
 
 export default [
   {
-    type: "Award",
-    title: "Backend mentor of the year at Genesys Tech Hub internship",
-    desc: "",
-    link: "",
-    year: 2021
-  },
-  {
     type: "Talk",
     title: "Speaker at Build on Conf 2020",
-    desc: "",
+    desc: "Delivered a session on building scalable blockchain solutions and decentralized applications.",
     link: "",
     year: 2020
   },
-  // {
-  //   type: "Award",
-  //   title: "HNG Internship 7 finalist",
-  //   desc: "I was one of the final 200 out of 11,500+ interns that participated in the HNG internship",
-  //   link: "",
-  //   year: 2019
-  // },
   {
     type: "Award",
     title: "Winner NACOSS Encrypt Hackathon",
-    desc: "",
+    desc: "Led a team to first place with an innovative blockchain-based encryption solution.",
     link: "",
     year: 2020
   },
   {
     type: "Award",
     title: "Winner Genesys Hackmania Hackathon",
-    desc: "",
+    desc: "Secured first place for developing a decentralized marketplace with enhanced security and scalability.",
     link: "",
     year: 2020
   },
   {
     type: "Award",
-    title: "Most creative intern of the year at Genesys Tech Hub",
-    desc: "",
+    title: "Most Creative Intern of the Year at Genesys Tech Hub",
+    desc: "Awarded for innovative solutions and outstanding creativity during the internship program.",
     link: "",
     year: 2019
   },
   {
     type: "Award",
-    title: "2nd runner up  Google Code Jam Hackathon, Enugu",
-    desc: "",
+    title: "2nd Runner Up at Google Code Jam Hackathon, Enugu",
+    desc: "Achieved third place with a high-performance algorithmic solution in a competitive coding environment.",
     link: "",
     year: 2019
   },
-  // {
-  //   type: "Award",
-  //   title: "HNG Internship 5 finalist",
-  //   desc: "I was one of the final 85 out of 3,600+ interns that participated in the HNG  internship",
-  //   link: "",
-  //   year: 2019
-  // },
+  {
+    type: "Award",
+    title: "HNG Internship 7 Finalist",
+    desc: "Ranked among the top 200 out of 11,500+ participants in the HNG Internship 7 program.",
+    link: "",
+    year: 2019
+  }
 ] as IFeature[]

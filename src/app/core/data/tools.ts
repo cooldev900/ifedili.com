@@ -1,10 +1,10 @@
-import { ITool } from "../models"
+import { ITool } from '../models';
 
-export default {
-  banga: {
-    id: "banga",
-    image: "./../../../../assets/skills/bangajs.png",
-    name: "BàngáJS",
+export default {  
+  react: {
+    id: "react",
+    image: "./../../../../assets/skills/react.png",
+    name: "ReactJS",
     categories: ["Web"]
   },
   ang: {
@@ -126,12 +126,6 @@ export default {
     image: "./../../../../assets/skills/sql.png",
     name: "SQL",
     categories: ["Languages"]
-  },
-  react: {
-    id: "react",
-    image: "./../../../../assets/skills/react.png",
-    name: "ReactJS",
-    categories: ["Web"]
   },
   ejs: {
     id: "ejs",
