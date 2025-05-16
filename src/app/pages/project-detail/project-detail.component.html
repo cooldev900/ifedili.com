@@ -17,7 +17,7 @@
         <swiper [navigation]="true" [pagination]="true" [slidesPerView]="2" [spaceBetween]="16" [centeredSlides]="true"
           class="mySwiper">
           <ng-template swiperSlide *ngFor="let img of project.images">
-            <img src="./../../../assets/{{img}}" alt="Project image">
+            <img src="assets/{{img}}" alt="Project image">
           </ng-template>
         </swiper>
 
